@@ -1,0 +1,26 @@
+.Vacations {
+  background-image: url("../../../assets/images/travel.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.Card {
+  margin: 1.5rem;
+}
+
+.vacationCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 80vh;
+}
+
+.Pagination {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0.2em;
+  left: 50%;
+  transform: translateX(-50%);
+}
